@@ -1,0 +1,9 @@
+SimpleSearch1()
+Open<--------{Start}
+while open is not empty
+do pick some node n from open
+open<---open\{n}
+if GoalTest(n)=True
+Then return n
+else open<---------open  U   MoveGen(n)
+Return Success
